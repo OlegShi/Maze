@@ -16,10 +16,11 @@ Line 2: MaxSteps=<num> MaxSteps for solving this maze. We assume different mazes
 Line 3: Rows=<num> Number of Rows in maze
 Line 4: Cols=<num> Number of Cols in maze
 Lines 5 and on: the maze itself, as described below
- #  	-- represents a wall
- space	-- represents a pass
- @	-- represents the player in the maze (initial position of the player)
- $	-- represents the end of the maze (the treasure that we seek)
+  
+ -- # -- represents a wall
+ -- space	-- represents a pass
+ -- @	-- represents the player in the maze (initial position of the player)
+ -- $	-- represents the end of the maze (the treasure that we seek)
  
 Player Movement in the Maze:
 the player doesn’t know the dimensions of the maze nor his own ‘location’!
